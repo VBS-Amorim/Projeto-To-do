@@ -39,7 +39,7 @@ ________________________________________________________________________________
 
    Depois de instalação, inicie o projeto com o comando:
 
-   => npm start
+   => npm run dev
 
    O projeto será iniciado, e você poderá acessá-lo em `http://localhost:3000` no seu navegador.
 
