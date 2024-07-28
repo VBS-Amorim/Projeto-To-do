@@ -7,7 +7,6 @@ const TodoForm = ({addTodo}) => {
     const handleSubmit = (e) => {
         e.preventDefault()
         if (!title || !comment) return;
-        //console.log(title, comment)
         addTodo (title, comment);
         setComment("");
         setTitle ("");

@@ -6,6 +6,7 @@ import Searching from "./components/Search";
 import EditTodoForm from './components/EditTodo';
 import Filter from './components/Filter';
 
+//Estados p/ modificação
 function App() {
   const [todos, setTodos] = useState([]);
   const [search, setSearch] = useState("");
